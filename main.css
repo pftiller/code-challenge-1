@@ -1,0 +1,12 @@
+.generate {
+  background-color: red;
+  height: 50px;
+}
+.generate button,
+.swap button {
+  margin:25px auto 0 5px;
+}
+.swap {
+  background-color: yellow;
+  height: 50px;
+}
