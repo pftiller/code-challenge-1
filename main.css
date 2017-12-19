@@ -1,12 +1,18 @@
+div {
+  margin:15px auto;
+  height:50px;
+}
+p {
+  margin:0 auto;
+  padding:5px 0 0 5px;
+}
+button {
+  margin-left:5px;
+}
 .generate {
   background-color: red;
-  height: 50px;
-}
-.generate button,
-.swap button {
-  margin:25px auto 0 5px;
+
 }
 .swap {
   background-color: yellow;
-  height: 50px;
 }

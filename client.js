@@ -10,12 +10,11 @@ function onLoad() {
 }
 
 function createDiv() {
-  $('body').append('<div id="append"></div>');
-  $('#append').append('<p id="count"></p>');
+  var div = $('<div class="generate">');
   counter += 1;
-  $('#count').text(counter);
-  $('#append').append('<div class="generate"><button id="swap">Swap</button><button id="delete">Delete</button></div>');
-
+  div.append('<p id="count">' + counter + '</p>');
+  div.append('<button id="swap">Swap</button><button id="delete">Delete</button>');
+  $('body').append(div);
 }
 
 function yellowBG() {
